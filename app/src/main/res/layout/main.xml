@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ru.lastgear.myapplication_7_9.MainActivity">
 
+cl
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,10 +42,9 @@
         android:layout_gravity="center_horizontal" />
 
     <ImageView
-        android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/iv1"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/ic_camera_alt_black_48dp" />
+        android:clickable="true"/>
 </LinearLayout>
